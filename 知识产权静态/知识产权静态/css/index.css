@@ -1,0 +1,546 @@
+﻿body{
+	margin:0px;	
+	padding:0px;
+	background:#e8e8e8;
+}
+.top{
+	width:100%;
+	height:33px;
+	background-image:url("../indexImg/top.png");
+	background-repeat:repeat-x;
+}
+.top span{
+	margin-left:18px;
+	line-height:32px;
+}
+
+/*主体部分*/
+.main{
+	width:1278px;
+	height:1600px;
+}
+/*上面logo*/
+.main .main-top{
+	width:100%;
+	height:180px;
+	background:white;
+}
+.main .main-top .img1{
+	float:left;
+	height:180px;
+}
+/*导航部分*/
+.main .daohang{
+	width:100%;
+	height:35px;
+	background-color:rgba(51,51,101,1);
+}
+.main .daohang .father .mainlevel{
+	width:170px;
+	height:35px;
+	line-height:35px;
+	color:white;
+	float:left;
+	list-style:none;
+	display:block;
+}
+.main .daohang .father .mainlevel a{
+	color:white;
+	text-decoration:none;
+}
+.main .daohang .father .mainlevel .xiala{
+	background:rgba(51,51,101,1);
+	list-style:none;
+	padding:0px;
+	display:none;
+	position:relative;
+	z-index:999;
+}
+.main .daohang .father .mainlevel .xiala a{
+	color:white;
+	text-decoration:none;
+}
+/*导航部分结束*/
+
+/*滚动信息*/
+.main .gundong{
+	width:100%;
+	height:44px;
+    background:#dcdcdc;
+}
+.main .gundong .voice{
+	width:30px;
+	height:30px;
+	float:left;
+	margin-left:25px;
+}
+.main .gundong .info{
+	width:90%;
+	height:30px;
+	margin-top:16px;
+	background-color:#cccccc;
+	color:#bb0025;
+	line-height:30px;
+}
+.main .gundong .info a{
+	color:#bb0025;
+	text-decoration:none;
+}
+/*滚动信息结束*/
+/*banner*/
+.main .slider{
+   margin-top:0px;
+   height:234px;
+   width:100%;
+}
+.main .slider .slider-img .slider-img-ul li{
+	height:230px;
+}
+.main .slider .slider-img .slider-img-ul img{
+	width:1278px;
+	height:234px;	
+}
+/*banner结束*/
+/*banner 下第一行*/
+.main .middle{
+	width:1253px;
+	height:285px;
+	margin-top:-35px;
+}
+/*左*/
+.main .middle .middle-left{
+	width:500px;
+	height:285px;
+	float:left;
+}
+/*左结束*/
+/*中*/
+.main .middle .middle-center{
+	width:465px;
+	height:285px;
+	float:left;
+	background:white;
+}
+.main .middle .middle-center .title{
+	height:70px;
+	width:465px;
+}
+.main .middle .middle-center .title .title-left{
+	width:130px;
+	height:70px;
+    color:rgb(51,51,101); 
+    font-size:24px;
+    font-weight:bold;	
+	float:left;
+	line-height:70px;
+	border-bottom:4px solid rgb(51,51,101);
+	margin-left:20px;
+}
+.main .middle .middle-center .title .title-right{
+	color:rgb(51,51,101);
+	width:100px;
+	height:70px;
+	float:right;
+	line-height:70px;
+	text-align:center;
+	font-size:14px;
+}
+.main .middle .middle-center .title .title-right a{
+	color:rgb(51,51,101);
+	text-decoration:none;
+}
+
+.main .middle .middle-center .newsUL{
+	width:445px;
+	height:215px;
+	margin-left:20px;
+}
+.main .middle .middle-center .newsUL li{
+	width:445px;
+	height:50px;
+	list-style:disc;
+	line-height:50px;	
+	font-size:10px;
+}
+.main .middle .middle-center .newsUL li .newsTitle{
+	width:320px;
+	height:50px;
+	white-space:nowrap;
+	overflow:hidden;
+	float:left;
+	text-align:left;
+	margin-left:10px;
+	line-height:50px;
+	font-size:15px;
+}
+.main .middle .middle-center .newsUL li .newsTitle a{
+	text-decoration:none;
+	color:#000000;
+}
+.main .middle .middle-center .newsUL li .newsTime{
+	width:90px;
+	height:50px;
+	white-space:nowrap;
+	overflow:hidden;
+	float:right;
+	line-height:50px;
+	text-align:left;
+	font-size:15px;
+}
+/*中结束*/
+/*右*/
+.main .middle .middle-right{
+	width:250px;
+	height:285px;
+	float:right;
+	background:white;
+}
+.main .middle .middle-right .title{
+	height:40px;
+	width:250px;
+}
+.main .middle .middle-right .title .left{
+	width:120px;
+	height:40px;
+	background:#990033;
+	float:left;
+	text-align:center;
+	line-height:40px;
+	color:white;
+	font-size:21px;
+}
+.main .middle .middle-right .gglUL ul {
+	width:90%;
+    height:230px;
+	margin-top:16px;
+}
+.main .middle .middle-right .gglUL ul li{
+	text-align:left;
+	text-indent:35px;
+	padding:0px;
+	margin:0px;
+	margin-top:5px;
+	overflow:hidden;
+	font-size:15px;
+}
+.main .middle .middle-right .gglUL ul li a{
+	text-decoration:none;
+	color:#000000;
+}
+/*右结束 ,banner下面第一行结束*/
+/*banner下第二行开始*/
+.main .middleSecond{
+	width:1253px;
+	height:268px;
+	margin-top:45px;
+}
+.main .middleSecond .middleSecond-left{
+	width:451px;
+	height:268px;
+	float:left;
+	background:white;
+}
+.main .middleSecond .middleSecond-left .title{
+	width:451px;
+	height:40px;
+}
+.main .middleSecond .middleSecond-left .title .left{
+	width:120px;
+	height:40px;
+	background-color:rgb(51,51,101);
+	float:left;
+	line-height:40px;
+	color:white;
+	font-size:21px;
+}
+.main .middleSecond .middleSecond-left .title .right{
+	width:100px;
+	line-height:40px;
+	float:right;
+	font-size:14px;
+}
+.main .middleSecond .middleSecond-left .title .right a{
+	color:rgb(51,51,101);
+}
+.main .middleSecond .middleSecond-left .jdjj{
+	width:94%;
+	text-indent:35px;
+	height:220px;
+	margin-top:8px;
+	text-align:left;
+	line-height:30px;
+	font-size:15px;
+	overflow:hidden;
+}
+
+.main .middleSecond .middleSecond-center{
+	width:407px;
+	height:268px;
+	float:left;
+	background:white;
+	margin-left:40px;
+}
+.main .middleSecond .middleSecond-center .title{
+	width:407px;
+	height:40px;
+}
+.main .middleSecond .middleSecond-center .title .left{
+	width:160px;
+	height:40px;
+	background-color:rgb(51,51,101);
+	float:left;
+	line-height:40px;
+	color:white;
+	font-size:21px;
+}
+.main .middleSecond .middleSecond-center .title .right{
+	width:100px;
+	line-height:40px;
+	float:right;
+	font-size:14px;
+}
+.main .middleSecond .middleSecond-center .title .right a{
+	color:rgb(51,51,101);
+}
+.main .middleSecond .middleSecond-center .zscqxz{
+	width:94%;
+	text-indent:35px;
+	height:220px;
+	margin-top:8px;
+	text-align:left;
+	line-height:30px;
+	font-size:15px;
+	overflow:hidden;
+}
+
+.main .middleSecond .middleSecond-right{
+	width:333px;
+	height:268px;
+	float:left;
+	margin-left:20px;
+	background:white;
+}
+
+.main .middleSecond .middleSecond-right .title .left{
+	width:120px;
+	height:40px;
+	background-color:rgb(51,51,101);
+	float:left;
+	line-height:40px;
+	color:white;
+	font-size:21px;
+}
+.main .middleSecond .middleSecond-right .title .right{
+	width:100px;
+	line-height:40px;
+	float:right;
+	font-size:14px;
+}
+.main .middleSecond .middleSecond-right .title .right a{
+	color:rgb(51,51,101);
+}
+
+.main .middleSecond .middleSecond-right .zxhd{
+	width:260px;
+	height:185px;
+	margin-top:55px;
+}
+.main .middleSecond .middleSecond-right .zxhd .picDiv1,.picDiv2{
+	width:260px;
+	height:85px;
+}
+.main .middleSecond .middleSecond-right .zxhd .picDiv2{
+	margin-top:16px;
+}
+.main .middleSecond .middleSecond-right img{
+	width:117px;
+	height:84px;
+}
+.main .middleSecond .middleSecond-right img:hover{
+	opacity:0.7;
+    filter:alpha(opacity=70);
+}
+.main .middleSecond .middleSecond-right .zxhd .picDiv1 .left,.main .middleSecond .middleSecond-right .zxhd .picDiv2 .left{
+	float:left;
+}
+.main .middleSecond .middleSecond-right .zxhd .picDiv1 .right,.main .middleSecond .middleSecond-right .zxhd .picDiv2 .right{
+	float:right;
+}
+/*banner下第二行结束*/
+/*banner下第三行开始*/
+.main .middleThird{
+	width:1253px;
+	height:185px;
+	margin-top:35px;
+}
+.main .middleThird .middleThird-left{
+	width:898px;
+	height:185px;
+	float:left;
+	background:white;
+}
+.main .middleThird .middleThird-left .title{
+	width:898px;
+	height:40px;
+}
+.main .middleThird .middleThird-left .title .left{
+	width:120px;
+	height:40px;
+	background-color:rgb(51,51,101);
+	float:left;
+	line-height:40px;
+	color:white;
+	font-size:21px;
+}
+.main .middleThird .middleThird-left .title .right{
+	width:100px;
+	line-height:40px;
+	float:right;
+	font-size:14px;
+}
+.main .middleThird .middleThird-left .title .right a{
+	color:rgb(51,51,101);
+}
+.main .middleThird .middleThird-left .pxjj{
+	width:98%;
+	height:135px;
+	overflow:hidden;
+	text-indent:35px;
+	margin-top:10px;
+    text-align:left;
+    font-size:15px;
+}
+.main .middleThird .middleThird-right{
+	width:320px;
+	height:185px;
+	float:right;
+	background:white;
+}
+
+.main .middleThird .middleThird-right .title{
+	width:320px;
+	height:40px;
+}
+.main .middleThird .middleThird-right .title .left{
+	width:120px;
+	height:40px;
+	background-color:rgb(51,51,101);
+	float:left;
+	line-height:40px;
+	color:white;
+	font-size:21px;
+}
+.main .middleThird .middleThird-right .title .right{
+	width:100px;
+	line-height:40px;
+	float:right;
+	font-size:14px;
+}
+.main .middleThird .middleThird-right .title .right a{
+	color:rgb(51,51,101);
+}
+.main .middleThird .middleThird-right .lxwm{
+	width:96%;
+	height:115px;
+	margin-top:20px;
+	overflow:hidden;
+}
+.main .middleThird .middleThird-right .lxwm p{
+	line-height:28px;
+	text-align:left;
+	text-indent:20px;
+	font-size:15px;
+}
+/*banner下第三行结束，Banner下第四行开始*/
+.main .middleFourth{
+	width:1253px;
+	height:185px;
+	margin-top:35px;
+}
+.main .middleFourth .middleFourth-left{
+	width:898px;
+	height:185px;
+	float:left;
+	background:white;
+}
+.main .middleFourth .middleFourth-left .title{
+	width:898px;
+	height:40px;
+}
+.main .middleFourth .middleFourth-left .title .left{
+	width:120px;
+	height:40px;
+	background-color:rgb(51,51,101);
+	float:left;
+	line-height:40px;
+	color:white;
+	font-size:21px;
+}
+.main .middleFourth .middleFourth-left .title .right{
+	width:100px;
+	line-height:40px;
+	float:right;
+	font-size:14px;
+}
+.main .middleFourth .middleFourth-left .title .right a{
+	color:rgb(51,51,101);
+}
+.main .middleFourth .middleFourth-left .zlbh{
+	width:98%;
+	height:135px;
+	overflow:hidden;
+	text-indent:35px;
+	margin-top:10px;
+    text-align:left;
+	font-size:15px;
+}
+.main .middleFourth .middleFourth-right{
+	width:320px;
+	height:185px;
+	float:right;
+	background:white;
+}
+
+.main .middleFourth .middleFourth-right .title{
+	width:320px;
+	height:40px;
+}
+.main .middleFourth .middleFourth-right .title .left{
+	width:120px;
+	height:40px;
+	background-color:rgb(51,51,101);
+	float:left;
+	line-height:40px;
+	color:white;
+	font-size:21px;
+}
+.main .middleFourth .middleFourth-right .title .right{
+	width:100px;
+	line-height:40px;
+	float:right;
+	font-size:14px;
+}
+.main .middleFourth .middleFourth-right .title .right a{
+	color:rgb(51,51,101);
+}
+.main .middleFourth .middleFourth-right .yqlj{
+	width:75%;
+	height:115px;
+	margin-top:20px;
+	overflow:hidden;
+	text-align:left;
+	font-size:15px;
+}
+.main .middleFourth .middleFourth-right .yqlj a{
+	text-decoration:none;
+    color:#000000;
+}
+/*banner下第四行结束*/
+/*主题部分结束*/
+/*底部*/
+.bottom{
+	width:100%;
+	height:100px;
+	border:none;
+	min-width:1278px;
+}
